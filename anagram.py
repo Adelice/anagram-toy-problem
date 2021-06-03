@@ -5,6 +5,8 @@ def anagram(p,s):
     res=[s[y-a:y] for y in range(a, len(s)+a,a)]
     if p in res:
         print(res.find(p))
+    else:
+        print("not found")    
    
         
 
